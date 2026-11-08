@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aqeel | Portfolio</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#0b1020;color:#f4f7ff;font:16px/1.7 system-ui,sans-serif}
+.container{max-width:960px;margin:auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;flex-wrap:wrap;gap:12px}
+nav a{color:#c3cce0;margin-right:15px;text-decoration:none}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.1}
+h1 span{color:#9b8cff}
+h2{font-size:32px}
+p{color:#b4bfd4}
+.hero{padding:100px 0}
+section{padding:40px 0}
+.button{display:inline-block;background:#9b8cff;color:#0b1020;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#151d32;padding:24px;border-radius:16px}
+.tag{display:inline-block;background:#252d49;padding:5px 12px;border-radius:20px;margin:5px}
+footer{padding:30px 0;border-top:1px solid #303951;color:#b4bfd4}
+</style>
+</head>
+<body>
+<nav class="container"><strong>qeelkins.dev</strong><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></nav>
+<main class="container">
+<section class="hero"><p>WELCOME TO MY PORTFOLIO</p><h1>Hi, I'm <span>Aqeel.</span></h1><p>I'm an aspiring developer learning to build useful digital experiences.</p><a class="button" href="#projects">Explore My Projects</a></section>
+<section id="about"><h2>About Me</h2><p>I'm learning web development and programming. This portfolio showcases my learning journey and projects.</p></section>
+<section><h2>What I'm Learning</h2><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Git & GitHub</span></section>
+<section id="projects"><h2>My Projects</h2><div class="grid"><article class="card"><h3>CreatorHub</h3><p>A planned unified analytics platform for content creators.</p><p>Status: Planning</p></article><article class="card"><h3>Personal Portfolio</h3><p>My first portfolio website, built with HTML and CSS.</p></article></div></section>
+<section id="contact"><h2>Let's Connect</h2><p>Check out my work on GitHub.</p><a class="button" href="https://github.com/qeelkins">My GitHub</a></section>
+</main>
+<footer><div class="container">© 2026 Aqeel. Built with HTML & CSS.</div></footer>
+</body>
+</html>
